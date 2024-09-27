@@ -7,7 +7,7 @@ import './GroupEditForm.module.css';
 const GroupEditForm = () => {
   const { groupId } = useParams(); 
   const { groups, updateGroup } = useGroups(); 
-  const [formData, setFormData] = useState({ // 수정 폼의 초기 상태를 설정합니다.
+  const [formData, setFormData] = useState({ 
     name: '',
     password: '',
     imageUrl: '',
